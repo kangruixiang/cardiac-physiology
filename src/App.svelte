@@ -25,20 +25,20 @@
 </script>
 
 <main>
-  <div class="container flex align-middle justify-center max-w-4xl">
+  <div class="container flex justify-center max-w-4xl align-middle">
     <div
-      class="py-4 px-6 my-6 rounded-lg lg:p-24 w-full lg:border-2 lg:border-solid lg:border-zinc-900 xl:max-w-6xl"
+      class="w-full px-6 py-4 my-6 rounded-lg lg:p-24 lg:border-2 lg:border-solid lg:border-zinc-900 xl:max-w-6xl"
     >
-      <div class="border-zinc-400 border-b mb-4 py-4">
+      <div class="py-4 mb-4 border-b border-zinc-400">
         <h2>Cardiac Physiology</h2>
         <div class="flex w-full">
-          Cardiac Output (4.0-8.0 L/min):&nbsp;
+          Cardiac output (4 - 8 L/min):&nbsp;
           <span class="font-semibold" class:warning={CO < 4}
             >{Math.round(CO * 100) / 100}</span
           >
         </div>
         <div class="flex w-full">
-          Cardiac Index (2.0 - 4.0 L/min/m2):&nbsp;
+          Cardiac index (2 - 4 L/min/m2):&nbsp;
           <span class="font-semibold" class:warning={CI < 2}
             >{Math.round(CI * 100) / 100}</span
           >
