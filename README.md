@@ -1,3 +1,3 @@
-# Snow UI
+Cardiac physiology calculator for the CCU, with sliders and everything. 
 
-Start a Svelte page with Tailwind and Snowpack. This also includes basic Tailwind components.
+https://kangruixiang.github.io/cardiac-physiology/
